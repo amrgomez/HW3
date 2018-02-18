@@ -150,7 +150,6 @@ def index():
     ## If there is, save it in a variable: user
     ## Or if there is not, then create one and add it to the database
     if form.validate_on_submit():
-        print(form.data)
         user_name= form.username.data
         displayname= form.display_name.data
         txt= form.text.data
