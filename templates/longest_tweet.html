@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<html>
+	<p>
+	Longest tweet:
+	</p>
+
+
+	<p>
+		<b>Tweet text: </b> {{ tweet }}
+		<br/>
+		<b>Display name: </b> {{ display_name }}
+		<br />
+		<b>Username: </b> @{{ username }}
+	</p>
+</html>
+{% endblock %}
